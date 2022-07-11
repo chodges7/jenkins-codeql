@@ -1,7 +1,7 @@
 pipeline {
   agent any
   environment {
-    GITHUB_PAT = credentials('github-pat')
+    GITHUB_PAT = credentials('GITHUB_PAT')
   }
   stages {
     stage('Scan') {

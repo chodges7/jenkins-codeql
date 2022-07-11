@@ -10,3 +10,5 @@
        - "50000:50000"
       volumes:
         - ./jenkins_home:/var/jenkins_home
+      environment:
+        - GITHUB_PAT=${GITHUB_PAT}
