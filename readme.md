@@ -12,6 +12,8 @@
 4. Use that token to setup an admin Jenkins user.
 
 ### Add a Jenkins Job
-1. Create a pipeline project
-2. Define the pipeline script to be from SCM (Source Control Management)
-3. Hit the `build now` button!
+1. Create a pipeline project.
+2. Specify a GitHub project in the general settings.
+3. Define the pipeline script to be from SCM (Source Control Management).
+4. Change the default branch specifier to `*/main`.
+5. Hit the `build now` button!
